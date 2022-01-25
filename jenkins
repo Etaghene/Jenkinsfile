@@ -3,7 +3,7 @@ pipeline {
 	stages {
     stage(‘Update’) {
 	steps {
-        sh "sudo rm -rf webserver/ "
+        sh ""
 	}
 	}
 	stage (‘install’) {
