@@ -3,7 +3,7 @@ pipeline {
 	stages {
     stage(‘Update’) {
 	steps {
-        sh ""
+        sh "sudo yum update -y"
 	}
 	}
 	stage (‘install’) {
