@@ -1,0 +1,11 @@
+import random
+
+while True:
+  operation = input("Press enter to generate a random value. Or enter 'end' to stop the program: ")
+  value1 = random.randint(1, 6)
+  value2 = random.randint(1, 6)
+
+  if operation ==  "end":
+    break
+  else:
+    print(value1,",", value2)
